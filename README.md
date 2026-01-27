@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="imgs/Netwizard%2B%2B Banner Image.png" alt="NetWizard++ Banner" width="60%">
+  <img src="imgs/Netwizard%2B%2B Banner Image.png" alt="NetWizard++ Banner" width="80%">
 </p>
 
 # NetWizard++
@@ -14,7 +14,7 @@ It is intended for **educational purposes, labs, and authorized security testing
 
 - 📐 **Subnet Calculator**
 
-  <img src="imgs/Subnet Calculator Image.png" alt="NetWizard++ Banner" width="40%">
+  <img src="imgs/Subnet Calculator Image.png" alt="NetWizard++ Banner" width="50%">
   
   - Network ID
   - Broadcast address
@@ -23,13 +23,13 @@ It is intended for **educational purposes, labs, and authorized security testing
 
 - 🔍 **Host Discovery**
 
-  <img src="imgs/Host discovery image.png" alt="NetWizard++ Banner" width="40%">
+  <img src="imgs/Host discovery image.png" alt="NetWizard++ Banner" width="50%">
   
   - Ping-scan based live host detection using Nmap
 
 - 📊 **Readable Host Table**
 
-  <img src="imgs/readable host table image.png" alt="NetWizard++ Banner" width="40%">
+  <img src="imgs/readable host table image.png" alt="NetWizard++ Banner" width="50%">
   
   - IP address
   - Hostname (if available)
@@ -37,14 +37,14 @@ It is intended for **educational purposes, labs, and authorized security testing
 
 - 🗺️ **Network Map Visualization**
 
-  <img src="imgs/Network Map Visualizer img.png" alt="NetWizard++ Banner" width="40%">
+  <img src="imgs/Network Map Visualizer img.png" alt="NetWizard++ Banner" width="50%">
   
   - ASCII host list
   - Automatically generated PNG network map using Graphviz
 
 - 🛡️ **Pentest Enumeration**
 
-  <img src="imgs/Pentest Enumeration img.png" alt="NetWizard++ Banner" width="40%">
+  <img src="imgs/Pentest Enumeration img.png" alt="NetWizard++ Banner" width="50%">
   
   - SYN scan
   - Service/version detection
@@ -53,7 +53,7 @@ It is intended for **educational purposes, labs, and authorized security testing
 
 - 🔔 **New Device Detection**
 
-  <img src="imgs/new device detection (baseline creation).png" alt="NetWizard++ Banner" width="25%">  <img src="imgs/newly added device detection.png" alt="NetWizard++ Banner" width="25%">
+  <img src="imgs/new device detection (baseline creation).png" alt="NetWizard++ Banner" width="35%">  <img src="imgs/newly added device detection.png" alt="NetWizard++ Banner" width="35%">
   
   - Detects new hosts appearing on a network by comparing scans
 
