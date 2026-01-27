@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Netwizard%2B%2B Banner Image.png" alt="NetWizard++ Banner" width="60%">
+  <img src="imgs/Netwizard%2B%2B Banner Image.png" alt="NetWizard++ Banner" width="60%">
 </p>
 
 # NetWizard++
