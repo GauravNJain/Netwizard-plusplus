@@ -1,2 +1,87 @@
-# Netwizard++
-NetWizard++ is a lightweight Bash-based network enumeration and pentesting toolkit that wraps common nmap workflows into an interactive menu, providing subnet calculation, host discovery, device change detection, and simple network visualization with optional Graphviz output.
+<p align="center">
+  <img src="Netwizard%2B%2B Banner Image.png" alt="NetWizard++ Banner" width="60%">
+</p>
+
+# NetWizard++
+
+NetWizard++ is a lightweight, Bash-based **network mapping and pentesting toolkit** designed for fast reconnaissance, subnet analysis, host discovery, and simple visualization using Nmap and Graphviz.
+
+It is intended for **educational purposes, labs, and authorized security testing only**.
+
+---
+
+## ✨ Features
+
+- 📐 **Subnet Calculator**
+  - Network ID
+  - Broadcast address
+  - Subnet mask
+  - Usable IP range and host count
+
+- 🔍 **Host Discovery**
+  - Ping-scan based live host detection using Nmap
+
+- 📊 **Readable Host Table**
+  - IP address
+  - Hostname (if available)
+  - MAC address and vendor (when detected)
+
+- 🗺️ **Network Map Visualization**
+  - ASCII host list
+  - Automatically generated PNG network map using Graphviz
+
+- 🛡️ **Pentest Enumeration**
+  - SYN scan
+  - Service/version detection
+  - OS detection
+  - Output saved for reporting
+
+- 🔔 **New Device Detection**
+  - Detects new hosts appearing on a network by comparing scans
+
+---
+
+## 🧠 How Network Mapping Works
+
+NetWizard++ does **not** perform physical topology discovery.
+
+Instead, it:
+1. Uses `nmap -sn` to detect live hosts
+2. Writes a **Graphviz DOT file** describing relationships between the network and hosts
+3. Uses Graphviz (`dot`) to render a **logical host relationship map**
+
+This produces a clean, report-friendly visualization of discovered assets.
+
+---
+
+## 📦 Requirements
+
+NetWizard++ relies on the following tools:
+
+- `bash`
+- `nmap`
+- `gawk`
+- `util-linux`
+- `graphviz` (optional, for PNG network maps)
+
+The installer will attempt to install these automatically.
+
+---
+
+## 🚀 Installation
+
+Clone the repository and run the installer:
+
+```bash
+git clone https://github.com/GauravNJain/Netwizard-plusplus.git
+cd Netwizard-plusplus
+sudo bash install.sh
+```
+
+---
+
+## 👤 Author
+
+- Developed by Gaurav N Jain
+
+📧 Contact: [LinkedIn Profile](https://www.linkedin.com/in/gauravnjain/)
