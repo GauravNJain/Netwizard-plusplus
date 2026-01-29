@@ -2,7 +2,7 @@
   <img src="imgs/Netwizard%2B%2B Banner Image.png" alt="NetWizard++ Banner" width="80%">
 </p>
 
-# NetWizard++
+# NetWizard++ Toolkit
 
 NetWizard++ is a lightweight, Bash-based **network mapping and pentesting toolkit** designed for fast reconnaissance, subnet analysis, host discovery, and simple visualization using Nmap and Graphviz.
 
